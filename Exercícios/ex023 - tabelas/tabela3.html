@@ -13,6 +13,7 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
 
     th {
@@ -35,8 +36,18 @@
     }
 
     thead, tfoot {
-        background-color: rgb(17, 175, 51);
-        color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(0, 0, 0);;
+    }
+    
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
     }
 </style>
 <body>
@@ -97,6 +108,46 @@
             </tr>
             <tr>
                 <td>Santa Catarina</td>
+                <td class="num">7 762 154</td>
+            </tr>  
+            <tr>
+                <td>AAAAAAAA</td>
+                <td class="num">46 024 937</td>
+            </tr>
+            <tr>
+                <td>BBBBBBBBB</td>
+                <td class="num">20 732 660</td>
+            </tr>
+            <tr>
+                <td>CCCCCCCCC</td>
+                <td class="num">16 615 526</td>
+            </tr>
+            <tr>
+                <td>DDDDDD</td>
+                <td class="num">14 659 023	</td>
+            </tr>
+            <tr>
+                <td>EEEEEEE</td>
+                <td class="num">11 835 379</td>
+            </tr>
+            <tr>
+                <td>FFFFFFF</td>
+                <td class="num">11 088 065</td>
+            </tr>
+            <tr>
+                <td>GGGGGGGGG</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>HHHHHHHHH</td>
+                <td class="num">8 936 431</td>
+            </tr>
+            <tr>
+                <td>IIIIIIIIIIII</td>
+                <td class="num">8 442 962</td>
+            </tr>
+            <tr>
+                <td>JJJJJJJJJJJJJ</td>
                 <td class="num">7 762 154</td>
             </tr>  
      </tbody>
